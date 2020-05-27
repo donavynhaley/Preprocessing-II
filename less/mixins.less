@@ -1,1 +1,17 @@
 // Mixins in here
+.button(@radius){
+    background-color: teal;
+    border-radius: @radius;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    @media @mobile{
+        width: 100%; 
+        margin: 0px;
+       }
+}
